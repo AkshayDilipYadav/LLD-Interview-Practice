@@ -11,71 +11,72 @@ Total	45 min
 
 1. Requirement Gathering:
 
-Functional requirements,
-non-functional requirements,
-scope,
-assumptions,
-and clarifying questions.
+Functional requirements: What should the system do? Example: users can borrow and return books.
+Non-functional requirements: How well should it work? Example: security, performance, reliability.
+Scope: Decide what features are included and excluded.
+Assumptions: State what you assume when requirements are unclear.
+Clarifying questions: Ask the interviewer questions to eliminate ambiguity.
 
 2. Core Entities & Relationships:
 
-Entities,
-attributes,
-associations,
-cardinality,
-inheritance,
-composition,
-and aggregation.
+Entities: Main objects, e.g., Book, Member, Loan.
+Attributes: Data stored in an entity, e.g., bookId, title.
+Associations: Relationships between classes.
+Cardinality: How many objects participate in a relationship, e.g., one-to-many.
+Inheritance: An Admin inherits common properties from User.
+Composition: Strong ownership; a part depends on its whole.
+Aggregation: Weak ownership; a part can exist independently.
 
 3. Class Design: 
 
-Classes,
-objects, 
-constructors,
-methods, 
-interfaces,
-abstract classes, 
-encapsulation,
-and SOLID principles.
+Classes: Blueprints defining data and behavior.
+Objects: Instances of classes.
+Constructors: Initialize objects.
+Methods: Define what objects can do.
+Interfaces: Define a contract that implementing classes must follow.
+Abstract classes: Provide a common base that cannot be instantiated directly.
+Encapsulation: Protect internal data and control access. 
+SOLID principles: Five principles for maintainable, extensible object-oriented design.
 
 4. Workflows & Design Patterns:
 
-Use cases, sequence of operations,
-Strategy,
-Factory,
-Observer,
-and State patterns.
+Use cases: Describe actions users perform, e.g., borrow a book.
+Sequence of operations: Specify the order of interactions between objects.
+Strategy: Swap algorithms or behaviors without changing the client.
+Factory: Centralize object creation.
+Observer: Notify subscribers when an event occurs.
+State: Change an object's behavior based on its current state.
 
 5. UML Diagram: 
 
-Class diagrams,
-sequence diagrams,
-association,
-inheritance,
-composition,
-aggregation,
-and multiplicity.
+Class diagram: Shows classes, attributes, methods, and relationships.
+Sequence diagram: Shows interactions between objects over time.
+Association: General relationship between classes.
+Inheritance: An is-a relationship.
+Composition: Strong whole-part relationship.
+Aggregation: Weak whole-part relationship.
+Multiplicity: Specifies relationship counts, such as 1, 0..1, *, or 1..*.
 
 6. Edge Cases & Design:
 
-Validation,
-exceptions, 
-concurrency,
-race conditions, 
-extensibility,
-and separation of concerns.
+Validation: Reject invalid input.
+Exceptions: Handle errors meaningfully.
+Concurrency: Handle multiple operations happening simultaneously.
+Race conditions: Prevent incorrect results when concurrent operations interfere.
+Extensibility: Make adding new features or classes easier.
+Separation of concerns: Give each class or component a clear responsibility.
 
 
 
 7. Implementation & Coding:
 
-Folder structure,
-interfaces,
-concrete classes,
-service classes, 
-repositories,
-enums, 
-and executable workflows.
+Folder structure: Organize files by responsibility.
+Interfaces: Define contracts.
+Concrete classes: Implement those contracts.
+Service classes: Contain business logic.
+Repositories: Handle data storage and retrieval.
+Enums: Represent a fixed set of values, e.g., LoanStatus.
+Executable workflows: Connect components to complete operations, such as borrowing a book.
 
 
 
