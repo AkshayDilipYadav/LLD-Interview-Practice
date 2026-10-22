@@ -1,20 +1,69 @@
 
-1. Requirement Gathering	5 min	Clarify scope, functional and non-functional requirements
-2. Core Entities & Relationships	7 min	Identify entities, attributes, and relationships
-3. Class Design	8 min	Define classes, interfaces, methods, and responsibilities
-4. Workflows & Design Patterns	7 min	Explain key workflows and justify design patterns
-5. UML Diagram	5 min	Draw class diagrams and show relationships
-6. Edge Cases & Design	5 min	Handle failures, concurrency, validation, and extensibility
-7. Implementation & Coding	8 min	Implement core classes and demonstrate the main workflow
-Total	45 min	Complete the LLD interview
+1. Requirement Gathering	            5 min
+2. Core Entities & Relationships     	7 min
+3. Class Design                      	8 min
+4. Workflows & Design Patterns      	7 min
+5. UML Diagram	                      5 min
+6. Edge Cases & Design              	5 min
+7. Implementation & Coding          	8 min
 
+Total	45 min	
 
-1. Requirement Gathering: Functional requirements, non-functional requirements, scope, assumptions, and clarifying questions.
-2. Core Entities & Relationships: Entities, attributes, associations, cardinality, inheritance, composition, and aggregation.
-3. Class Design: Classes, objects, constructors, methods, interfaces, abstract classes, encapsulation, and SOLID principles.
-4. Workflows & Design Patterns: Use cases, sequence of operations, Strategy, Factory, Observer, and State patterns.
-5. UML Diagram: Class diagrams, sequence diagrams, association, inheritance, composition, aggregation, and multiplicity.
-6. Edge Cases & Design: Validation, exceptions, concurrency, race conditions, extensibility, and separation of concerns.
+1. Requirement Gathering:
+
+Functional requirements,
+non-functional requirements,
+scope,
+assumptions,
+and clarifying questions.
+
+2. Core Entities & Relationships:
+
+Entities,
+attributes,
+associations,
+cardinality,
+inheritance,
+composition,
+and aggregation.
+
+3. Class Design: 
+
+Classes,
+objects, 
+constructors,
+methods, 
+interfaces,
+abstract classes, 
+encapsulation,
+and SOLID principles.
+
+4. Workflows & Design Patterns:
+
+Use cases, sequence of operations,
+Strategy,
+Factory,
+Observer,
+and State patterns.
+
+5. UML Diagram: 
+
+Class diagrams,
+sequence diagrams,
+association,
+inheritance,
+composition,
+aggregation,
+and multiplicity.
+
+6. Edge Cases & Design:
+
+Validation,
+exceptions, 
+concurrency,
+race conditions, 
+extensibility,
+and separation of concerns.
 
 
 
